@@ -1,0 +1,81 @@
+/* locales */
+
+.locales {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 6rem 6rem;
+  background-image: url(/img/fondo.png);
+}
+
+.locales_titulo {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: $color-blanco;
+}
+
+.locales_span {
+  color: $color-naranja;
+}
+
+.locales_lista {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.locales_items {
+  border-bottom: 1px solid $color-blanco;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.locales_nombre {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: $color-blanco;
+
+  &:hover {
+    color: $color-naranja;
+  }
+}
+
+.locales_accion {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.locales_boton {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: 2px solid $color-negro;
+  background: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.locales_boton--primario {
+  background-color: $color-naranja;
+  color: $color-blanco;
+  border: 3px solid $color-blanco;
+
+  &:hover {
+    background-color: red;
+  }
+}
+
+.locales_boton--secundario {
+  background-color: transparent;
+  color: $color-naranja;
+  border: 3px solid $color-naranja;
+
+  &:hover {
+    border: 3px solid $color-blanco;
+    color: $color-blanco;
+  }
+}

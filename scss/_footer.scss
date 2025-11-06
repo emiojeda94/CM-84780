@@ -1,0 +1,45 @@
+/* footer */
+
+.footer {
+  background-color: white;
+  color: $color-negro;
+  padding: 3rem 2rem;
+}
+
+.footer_contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer_titulo {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.footer_lista {
+  list-style: none;
+}
+
+.footer_item {
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+.footer_link {
+  color: $color-negro;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $color-naranja;
+  }
+}

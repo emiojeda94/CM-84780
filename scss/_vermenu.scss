@@ -1,0 +1,70 @@
+/* MAIN */
+
+/* ver menu */
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  background-image: url(/img/fondo.png);
+  color: $color-negro;
+}
+
+.menu_contenido {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.menu_titulo {
+  color: $color-blanco;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-align: end;
+}
+
+.menu_subtitulo {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: $color-blanco;
+  text-transform: uppercase;
+}
+
+.menu_span {
+  color: $color-blanco;
+}
+
+.menu_boton {
+  display: inline-block;
+  padding: 12px 25px;
+  border: 2px solid $color-naranja;
+  color: $color-naranja;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  width: 9rem;
+
+  &:hover {
+    color: $color-blanco;
+    border: 2px solid $color-blanco;
+    background-color: orange;
+  }
+}
+
+.menu_img {
+  position: relative;
+  max-width: 370px;
+  justify-self: center;
+  border: 1px solid $color-blanco;
+}
+
+.menu_imagen {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}

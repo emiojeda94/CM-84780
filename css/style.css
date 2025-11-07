@@ -47,7 +47,7 @@ body {
 .banner {
   position: relative;
   height: 100vh;
-  background: url("/img/banner.jpg") no-repeat center center/cover;
+  background: url("img/banner.jpg") no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +108,7 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 3rem;
-  background-image: url(/img/fondo.png);
+  background-image: url(img/fondo.png);
   color: black;
 }
 
@@ -235,7 +235,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   padding: 6rem 6rem;
-  background-image: url(/img/fondo.png);
+  background-image: url(img/fondo.png);
 }
 
 .locales_titulo {
@@ -355,7 +355,7 @@ body {
 /* HTML NOSOTROS */
 .nosotros {
   padding: 70px;
-  background: url(/img/fondo.png);
+  background: url(img/fondo.png);
   width: 100%;
 }
 
@@ -404,7 +404,7 @@ body {
 /* HTML MENU */
 .menu_ {
   margin: 0 auto;
-  background-image: url(/img/fondo.png);
+  background-image: url(img/fondo.png);
   padding: 25px;
   margin-top: 7px;
 }
@@ -521,7 +521,7 @@ body {
 
 /* HTML CONTACTO */
 .contacto_ {
-  background-image: url(/img/fondo.png);
+  background-image: url(img/fondo.png);
 }
 
 .contacto {

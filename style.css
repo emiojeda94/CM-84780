@@ -235,7 +235,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   padding: 6rem 6rem;
-  background-image: url(/img/fondo.png);
+  background: url(img/fondo.png);
 }
 
 .locales_titulo {
